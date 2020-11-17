@@ -17,4 +17,10 @@ Along with that, all images have alternative text, and the website auto scales d
 
 =============================
 
-Attached within the Repo are a few screenshots showcasing the website just in case one doesn't want to view the website itself for whatever reason.
+[Screenshot 1](https://github.com/Relten98/portfolio.io/blob/main/Screenshot%20(136).png)
+
+[Screenshot 2](https://github.com/Relten98/portfolio.io/blob/main/Screenshot%20(138).png)
+
+[Screenshot 3](https://github.com/Relten98/portfolio.io/blob/main/Screenshot%20(139).png)
+
+[Deployed Web page](https://github.com/Relten98/portfolio.io )
