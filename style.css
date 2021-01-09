@@ -42,7 +42,6 @@ form {
 }
 
 #mainbody {
-    overflow:hidden;
     background: transparent;
     width: 100%;
     filter: drop-shadow(0 0 0.75rem #9F1422);
