@@ -36,6 +36,43 @@ form {
     filter: drop-shadow(0 0 72px #9F1422);
 }
 
+.card-title {
+    font-weight: bolder;
+    background-image: url("streak_rd.png");
+    background-position: unset;
+    margin-bottom: 5px;
+    width: 650px;
+    background-color: transparent;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    filter: drop-shadow(5px 8px 8px #080503);
+    color: #c99d5b;
+    font-family: 'Rye', cursive;
+    font-size: 30px;
+}
+
+.card-body {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    background-image: url("splatter.png");
+    filter: drop-shadow(5px 8px 18px #080503);
+    background-color: #2b2c25;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: fit-content;
+    width: fit-content;
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#cardthing {
+    background-color: transparent;
+}
+
 #maincard {
     background: transparent;
     width: auto;
