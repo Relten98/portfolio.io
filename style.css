@@ -37,6 +37,9 @@ form {
 }
 
 .card-title {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
     font-weight: bolder;
     background-image: url("streak_rd.png");
     background-position: unset;
@@ -49,6 +52,24 @@ form {
     color: #c99d5b;
     font-family: 'Rye', cursive;
     font-size: 30px;
+}
+
+#imgHalf {
+    float: left;
+    height: auto;
+    width: auto;
+    align-content: center;
+}
+
+#webcarousel {
+    background-color: #770f1a;
+    width: 1000px;
+    height: 750px;
+    /* Border shiznit */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
 }
 
 .content {
@@ -271,6 +292,9 @@ form {
 
 #buttonthing {
     float: left;
+    align-content: center;
+    text-align: center;
+    align-self: center;
     background-image: linear-gradient(#52534C, #080503);
     color: #E4D8C7;
     text-align: center;
