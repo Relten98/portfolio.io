@@ -54,6 +54,13 @@ form {
     font-size: 30px;
 }
 
+#smlImage {
+    height: 25%;
+    width: 50%;
+    align-content: center;
+    float: center;
+}
+
 #imgHalf {
     float: left;
     height: auto;
