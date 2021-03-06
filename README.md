@@ -1,6 +1,6 @@
-# portfolio.io
+# Portfolio 
 
-This is three included html files, that should be fairly resposive, albeit a tad buggy due to my inexperience.
+This is my portfolio, which lists all of my projects that I have completed, or have been a part of to date.
 
 ===========================================
 
@@ -17,6 +17,6 @@ Along with that, all images have alternative text, and the website auto scales d
 
 =============================
 
-[Screenshot 1](https://github.com/Relten98/portfolio.io/blob/main/photos/screenshots/portfolio_screencap_old.png)
+[Screenshot](https://github.com/Relten98/portfolio.io/blob/main/photos/screenshots/portfolio_screencap_old.png)
 
 [Deployed Web page](https://github.com/Relten98/portfolio.io )
