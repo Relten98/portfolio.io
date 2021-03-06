@@ -2,28 +2,86 @@
 
  Colorstorage {
     /* Mignola based colors */
-    color: #080503;    /* Mignola Black */
-    color: #52534C;    /* Gun-smoke Grey */
-    color: #E4D8C7;    /* Alabaster */
-    color: #AB7A32;    /* Dirty Gold */
+    color: #E4D8C7;    /* Mignola Black */
+    color: #A9BA9A;    /* Gun-smoke Grey */
+    color: #808F78;    /* Alabaster */
+    color: #824B43;    /* Dirty Gold */
     color: #9F1422;     /* Hellboy Red */ 
     /* Fonts */
-    font-family: 'Raleway', sans-serif; /* The legible one */ 
-    font-family: 'Rye', cursive; /* Ultra professional cowboy font*/ 
+font-family: 'Raleway', sans-serif; /* The new header, used for subtext */
+font-family: 'Lato', sans-serif; /* Lato, used for subtext */
 }
 
 h1 {
-    font-family: 'Rye', cursive;
+    font-family: 'Playfair Display', serif; /* The new header, used for subtext */
     text-align: center;
     font-size: 42px;
 }
 
-html, body{
-    background-image: linear-gradient 42deg (#c08159, #080503, #000000);
-    background: #080503;
-    color: #E4D8C7;
-    font-family: 'Raleway', sans-serif;
+h2 {
+    font-family: 'Raleway', sans-serif; /* The new header, used for subtext */
+    text-align: center;
+    font-size: 42px;
+    color: #080503;
 }
+
+body, html {
+    height: 100%;
+    font-family: 'Lato', sans-serif; /* Lato, used for subtext */
+}
+
+html
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+      opacity: 0.5;
+    /* The image used */
+    background-image: url("codeback.png");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: #E4D8C7;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Contact Page */
 
@@ -111,11 +169,6 @@ form {
     width: auto;
 }
 
-#mainbody {
-    background: transparent;
-    width: 100%;
-    filter: drop-shadow(0 0 0.75rem #9F1422);
-}
 
 /* Navbar */
 
@@ -137,12 +190,9 @@ form {
     color: #E4D8C7;
 }
 
-#navDeco:hover {
-
-}
-
 #mainName {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
     filter: drop-shadow(5px 5px 4px #080503);
     background-image: url("streak_rd.png");
     background-size: 200px;
@@ -171,11 +221,17 @@ form {
     border-radius: 5px;
 }
 
-#navBtn:hover {
-    width: 75px;
+#navBtn {
+    width: 55px;
     color: black;
-    background: #7c1925;
     border: solid black 2px;
+    transition: ease-out 0.2s;
+    
+}
+#navBtn:hover {
+    background: #7c1925;
+    width: 75px;
+
     
 }
 
@@ -307,6 +363,7 @@ form {
     text-align: center;
     padding: 10px;
     margin-left: 78px;
+    transition: ease-out 0.5s;
     border: solid black 1px;
 
 }
@@ -316,6 +373,71 @@ form {
     padding-left: 45px;
     padding-right: 35px;
     margin-left: 65px;
+    transition: ease-out 0.5s;
     border: solid black 1px;
 
+}
+
+/* Animated bg */
+html {
+    background: linear-gradient(-45deg, #282828, #161414);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+    
+}
+
+.bg-image {
+	background-size: 100% 250%;
+    animation: textscroll 75s linear infinite;
+}
+
+
+body{
+    background-color: transparent;
+}
+
+/* Animations */
+
+/* vertical scroll */
+@keyframes textscroll {
+    0% {		
+        background-position: 50% 0%;
+    }
+    50% {
+		background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+/* Horizontal scroll */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Bouncy button */
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
 }
