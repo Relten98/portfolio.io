@@ -18,6 +18,10 @@ h1 {
     font-size: 42px;
 }
 
+h4 {
+    text-align: center;
+}
+
 h2 {
     font-family: 'Raleway', sans-serif; /* The new header, used for subtext */
     text-align: center;
@@ -139,6 +143,10 @@ font-size: medium;
 font-size: larger;
 }
 
+.container, p {
+    color: #E4D8C7;
+
+}
 
 
 /* Contact Page */
@@ -153,13 +161,11 @@ form {
 }
 
 .card-title {
-    align-content: center;
     text-align: center;
     justify-content: center;
     font-weight: bolder;
-    background-image: url("streak_rd.png");
     background-position: unset;
-    margin-bottom: 5px;
+    margin: auto;
     width: 650px;
     background-color: transparent;
     background-size: 95%;
@@ -201,22 +207,27 @@ form {
 }
 
 .card-body {
+    color: #E4D8C7;
     font-weight: bold;
     font-size: 14px;
     text-align: center;
-    background-image: url("splatter.png");
-    filter: drop-shadow(5px 8px 18px #080503);
-    background-color: #2b2c25;
+    filter: drop-shadow(5px 8px 18px #08050360);
+    background-color: #a9ba9aa6;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    height: fit-content;
-    width: fit-content;
+    height: auto;
+    width: auto;
     background-size: 100%;
     background-position: left;
     background-repeat: no-repeat;
 }
+
+form {
+    background: transparent;
+}
+
 
 #cardthing {
     background-color: transparent;
@@ -225,6 +236,12 @@ form {
 #maincard {
     background: transparent;
     width: auto;
+}
+
+#mainbody {
+    border: transparent;
+    color: #E4D8C7;
+    background: transparent;
 }
 
 
@@ -276,6 +293,8 @@ form {
 /* Sub header selectors */
 
 #subnav {
+    background-color: #5d5d5d29;
+    border-radius: 5px;
     float: inherit;
     margin-bottom: 12px;
     border-bottom: dotted #55121a 2px;
@@ -377,7 +396,7 @@ form {
     color: #E4D8C7;
     text-align: center;
     padding: 10px;
-    margin-left: 78px;
+    margin-left: 45%;
     transition: ease-out 0.5s;
     border: solid black 1px;
 
@@ -388,7 +407,6 @@ form {
     color: #E4D8C7;
     padding-left: 45px;
     padding-right: 35px;
-    margin-left: 65px;
     transition: ease-out 0.5s;
     border: solid black 1px;
 
@@ -396,6 +414,7 @@ form {
 
 /* Animated bg */
 html {
+    color: #E4D8C7;
     background: linear-gradient(-45deg, #282828, #161414);
 	background-size: 400% 400%;
 	animation: gradient 12s ease infinite;
