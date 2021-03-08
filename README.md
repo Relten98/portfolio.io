@@ -19,4 +19,4 @@ Along with that, all images have alternative text, and the website auto scales d
 
 ![Screenshot](https://raw.githubusercontent.com/Relten98/portfolio.io/main/photos/screenshots/portfolio_screencap_old.png)
 
-[Deployed Web page](https://github.com/Relten98/portfolio.io )
+[Deployed Web page](https://relten98.github.io/portfolio.io/ )
