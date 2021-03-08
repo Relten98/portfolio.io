@@ -2,10 +2,10 @@
 
  Colorstorage {
     /* Mignola based colors */
-    color: #E4D8C7;    /* Mignola Black */
-    color: #A9BA9A;    /* Gun-smoke Grey */
-    color: #808F78;    /* Alabaster */
-    color: #824B43;    /* Dirty Gold */
+    color: #E4D8C7;    /* snow white */
+    color: #A9BA9A;    /* mint green */
+    color: #808F78;    /* poopoo green */
+    color: #824B43;    /* Dirty Brown */
     color: #9F1422;     /* Hellboy Red */ 
     /* Fonts */
 font-family: 'Raleway', sans-serif; /* The new header, used for subtext */
@@ -13,7 +13,7 @@ font-family: 'Lato', sans-serif; /* Lato, used for subtext */
 }
 
 h1 {
-    color: #824B43;
+    color: #ffc04cc7;
     font-family: 'Playfair Display', serif; /* The new header, used for subtext */
     text-align: center;
     font-size: 42px, auto;
