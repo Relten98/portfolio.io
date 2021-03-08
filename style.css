@@ -13,20 +13,26 @@ font-family: 'Lato', sans-serif; /* Lato, used for subtext */
 }
 
 h1 {
+    color: #824B43;
     font-family: 'Playfair Display', serif; /* The new header, used for subtext */
     text-align: center;
-    font-size: 42px;
+    font-size: 42px, auto;
 }
 
 h4 {
     text-align: center;
 }
 
+h5 {
+ font-size: auto;
+ margin: auto;
+}
+
 h2 {
     font-family: 'Raleway', sans-serif; /* The new header, used for subtext */
     text-align: center;
     font-size: 42px;
-    color: #080503;
+    color: #824B43;
 }
 
 body, html {
@@ -162,18 +168,15 @@ form {
 
 .card-title {
     text-align: center;
-    justify-content: center;
     font-weight: bolder;
-    background-position: unset;
     margin: auto;
-    width: 650px;
     background-color: transparent;
     background-size: 95%;
     background-repeat: no-repeat;
     filter: drop-shadow(5px 8px 8px #080503);
     color: #c99d5b;
-    font-family: 'Rye', cursive;
-    font-size: 30px;
+    font-family: 'Raleway', sans-serif; /* The new header, used for subtext */
+    font-size: 30px, auto;
 }
 
 #smlImage {
@@ -208,11 +211,9 @@ form {
 
 .card-body {
     color: #E4D8C7;
-    font-weight: bold;
-    font-size: 14px;
     text-align: center;
     filter: drop-shadow(5px 8px 18px #08050360);
-    background-color: #a9ba9aa6;
+    background-color: #a9ba9a2e;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 25px;
@@ -222,6 +223,20 @@ form {
     background-size: 100%;
     background-position: left;
     background-repeat: no-repeat;
+}
+
+p {
+    font-family: 'Lato', sans-serif; /* Lato, used for subtext */
+    font-size: small;
+    margin-top: 0;
+    margin-left: 12px;
+    margin-right: 13px;
+    margin-bottom: 10px
+}
+
+img {
+    width: auto;
+    height: auto;
 }
 
 form {
@@ -293,6 +308,7 @@ form {
 /* Sub header selectors */
 
 #subnav {
+    color: silver;
     background-color: #5d5d5d29;
     border-radius: 5px;
     float: inherit;
