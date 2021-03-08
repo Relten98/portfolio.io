@@ -39,6 +39,7 @@ body, html {
     height: 100%;
     font-family: 'Lato', sans-serif; /* Lato, used for subtext */
     box-sizing: border-box;
+    text-align: center;
   }
   
   .bg-image {
