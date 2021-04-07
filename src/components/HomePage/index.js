@@ -1,11 +1,18 @@
 import React from "react";
+
+// Component imports
 import LowerText from "../LowerText";
 import MainBody from "../MainBody";
+import Subnav from "../Subnav";
+import BgImage from "../BgImage";
+
+// Style sheet for whatever is left here.
 import "./style.css";
 
-function MainCard () {
+function HomePage () {
     return (
 <div className="MainCard">
+{BgImage}
 {Subnav}
     {MainBody}
     <br />
@@ -14,4 +21,4 @@ function MainCard () {
     );
 }
 
-export default MainCard;
+export default HomePage;
