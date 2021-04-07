@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css';
 
 // Component imports
 import LowerText from "../LowerText";

@@ -1,6 +1,6 @@
 // Basic importations.
 import React from "react";
-import "./style.css";
+import './style.css';
 
 // This is what makes those fancy SCHMANCY images on the bottom.
 function LowerText() {
