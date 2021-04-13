@@ -1,6 +1,6 @@
 /*Not for use, just for reference*/
 
- Colorstorage {
+ .Colorstorage {
     /* Mignola based colors */
     color: #E4D8C7;    /* snow white */
     color: #A9BA9A;    /* mint green */
@@ -287,7 +287,6 @@ form {
 
 /* Main nav selection */
 #navselect {
-    background-image: url("streak_rd.png");
     background-color: transparent;
     background-size: 45%;
     background-position: left;
@@ -296,7 +295,6 @@ form {
 }
 
 #navselect:hover {
-    background-image: url("streak_blk.png");
     background-size: 45%;
     font-size: 20px;
     background-position: left;
@@ -318,7 +316,6 @@ form {
 }
 
 #navselect2 {
-    background-image: url("streak_rd.png");
     margin-left: 10%;
     margin-bottom: 15px;
     padding-left: 25px;
@@ -336,7 +333,7 @@ form {
 }
 
 #navselect2:hover {
-    background-image: url("splatter2.png");
+
     font-size: 19px;
     color: white;
     background-color: transparent;
@@ -352,7 +349,7 @@ form {
 
 /* Current Page */
 #navdisabled {
-    background-image: url("splatter.png");
+
     border-radius: 25px;
     filter: drop-shadow(5px 2px 20px #080503);
     background-color: #7c1925;
@@ -383,7 +380,7 @@ form {
 
 #lowercard {
     margin-left: 50px;
-    background-image: url("splatter2.png");
+
     background-position: center;
     background-repeat: no-repeat;
     width: 75%;

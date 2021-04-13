@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../Nav";
-import './style.css';
+
+import '../style.css';
 
 function Header1() {
     return(
@@ -8,7 +9,7 @@ function Header1() {
             {Nav}
             <title>My Homepage</title>
         </head>
-    ):
+    );
 }
 
 export default Header1;
